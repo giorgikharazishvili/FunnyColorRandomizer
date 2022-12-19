@@ -6,6 +6,7 @@
         height: 100vh;
         overflow-y: hidden;
         transition: all 1s;
+        background-color: azure;
     }
 
     span {
@@ -20,7 +21,7 @@
         border: solid 3px rgb(255, 255, 255);
         border-radius: 10px;
         height: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
         box-shadow: rgb(240, 195, 136) 0px 0px 30px;
         background-color: antiquewhite;
     }
@@ -30,7 +31,6 @@
         cursor: crosshair;
         transition: all 0.8s;
         box-shadow: rgb(89, 251, 162) 0px 0px 30px;
-
     }
 
     #cancel-button {
@@ -40,12 +40,13 @@
         border-radius: 40px;
         width: 80px;
         height: 80px;
-        border: solid 5px rgb(104, 103, 103);
+        border: solid 3px rgb(255, 255, 255);
+        box-shadow: rgb(240, 195, 136) 0px 0px 30px;
     }
 
     #cancel-button:hover {
         background-color: rgb(192, 0, 0);
-        border: solid 5px rgb(0, 0, 0);
+        box-shadow: rgb(192, 0, 0) 0px 0px 30px;
         cursor: pointer;
         color: azure;
         transition: all 0.8s;
